@@ -1,0 +1,20 @@
+.card-aluno {
+  width: 240px;
+  padding: 20px;
+  border-radius: 12px;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-family: sans-serif;
+}
+
+.card-aluno h2 {
+  margin: 0 0 8px 0;
+  font-size: 1.25rem;
+}
+
+.card-aluno p {
+  margin: 0;
+  font-size: 1.5rem;
+  opacity: 0.9;
+  
+}

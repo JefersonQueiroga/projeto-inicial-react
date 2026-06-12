@@ -1,0 +1,31 @@
+.card-curso {
+  width: 240px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #fff;
+  border-top: 6px solid #4f46e5;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+.card-curso h2 {
+  margin: 0 0 8px 0;
+  font-size: 1.25rem;
+  color: #111827;
+}
+
+.card-curso .instrutor {
+  margin: 0 0 12px 0;
+  font-size: 1rem;
+  color: #4b5563;
+}
+
+.card-curso .carga-horaria {
+  display: inline-block;
+  padding: 4px 10px;
+  background-color: #f3f4f6;
+  border-radius: 999px;
+  font-size: 0.875rem;
+  color: #374151;
+  font-weight: 600;
+}
