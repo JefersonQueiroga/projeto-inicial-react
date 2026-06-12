@@ -1,16 +1,72 @@
-# React + Vite
+# Projeto Inicial React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto base da disciplina para praticar componentes em React.
 
-Currently, two official plugins are available:
+## Pré-requisitos (Windows)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Antes de começar, instale:
 
-## React Compiler
+1. **Node.js** (versão 18 ou superior) — https://nodejs.org
+   - Baixe o instalador **LTS** e siga o passo a passo.
+2. **Git** — https://git-scm.com/download/win
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Para verificar se instalou corretamente, abra o **Prompt de Comando** (CMD) ou **PowerShell** e digite:
 
-## Expanding the ESLint configuration
+```bash
+node -v
+npm -v
+git --version
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Como rodar o projeto
+
+### 1. Baixar o projeto
+
+Abra o **Prompt de Comando** na pasta onde quer salvar o projeto e execute:
+
+```bash
+git clone https://github.com/JefersonQueiroga/projeto-inicial-react.git
+```
+
+> Se preferir, você também pode baixar o ZIP direto pelo GitHub clicando em **Code > Download ZIP** e extrair.
+
+### 2. Entrar na pasta do projeto
+
+```bash
+cd projeto-inicial-react
+```
+
+### 3. Instalar as dependências
+
+```bash
+npm install
+```
+
+> Esse comando pode demorar alguns minutos na primeira vez.
+
+### 4. Rodar o projeto
+
+```bash
+npm run dev
+```
+
+O terminal vai mostrar um endereço parecido com:
+
+```
+Local: http://localhost:5173/
+```
+
+Abra esse endereço no navegador para ver o projeto rodando.
+
+Para **parar** o servidor, pressione `Ctrl + C` no terminal.
+
+## Estrutura do projeto
+
+```
+projeto-inicial-react/
+├── src/
+│   ├── components/   -> componentes React (CardAluno, CardCurso, Botao)
+│   ├── App.jsx       -> componente principal
+│   └── main.jsx      -> ponto de entrada
+└── package.json      -> dependências do projeto
+```
